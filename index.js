@@ -53,7 +53,7 @@ const PORTS = 8001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors({
-    origin: ["http://localhost:3000", "http://localhost:3001","https://www.raahgujarat.in"],
+    origin: ["http://localhost:3000", "http://localhost:3001","https://www.raahgujarat.in","https://admin.raahgujarat.in"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"]
 }));
