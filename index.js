@@ -47,7 +47,7 @@ require("dotenv").config();
 const app = express();
 
 //initialize PORT No
-const PORTS = 8000;
+const PORTS = 8001;
 
 //Middlewares
 app.use(express.json());
